@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #5609;
+}
+.con{
+    text-align: center;
+}
+.circle{
+    width: 21vh;
+    display: block;
+    margin: auto;
+}
+.dot{
+    transform: translatey(0%);
+    /*transition: transform 0.6s ;
+    transition-timing-function:ease-in-out;*/
+    opacity: 1;
+}
+/*.circle:hover .dot{
+    transform: translatey(0%);
+    opacity: 1;
+}*/
